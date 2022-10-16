@@ -1,0 +1,22 @@
+.root {
+  font-family: "Inter", sans-serif;
+  max-width: 1440px;
+  background-color: var(--main-back);
+  color: var(--main-text);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 425px) {
+  .root {
+    padding-top: 28px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .root {
+    padding-top: 16px;
+  }
+}

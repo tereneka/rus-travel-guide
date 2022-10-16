@@ -1,0 +1,17 @@
+@media screen and (min-width: 1280px) {
+  .lead {
+    width: calc(100% - 296px);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead {
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    width: 100%;
+  }
+}
