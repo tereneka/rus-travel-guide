@@ -3,12 +3,10 @@
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
-  margin: 92px auto 0;
 }
 
 @media screen and (max-width: 768px) {
   .intro__title {
-    margin: 88px auto 0;
   }
 }
 
@@ -16,6 +14,5 @@
   .intro__title {
     font-size: 32px;
     line-height: 35px;
-    margin: 59px auto 0;
   }
 }

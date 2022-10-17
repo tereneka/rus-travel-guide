@@ -1,6 +1,6 @@
 .content__intro {
   align-self: flex-start;
-  margin-left: 148px;
+  margin: 92px auto 92px 148px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -11,6 +11,12 @@
 
 @media screen and (max-width: 768px) {
   .content__intro {
-    margin: auto;
+    margin: 88px auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .content__intro {
+    margin: 59px auto 69px;
   }
 }
