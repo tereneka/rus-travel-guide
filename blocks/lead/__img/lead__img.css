@@ -2,23 +2,17 @@
   width: 100%;
   height: auto;
   margin-bottom: 8px;
+  margin-top: 64px;
 }
 
-@media screen and (min-width: 1280px) {
-  .lead__img {
-    margin-top: 64px;
-  }
-}
-
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1024px) {
   .lead__img {
     margin-top: 56px;
   }
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 425px) {
   .lead__img {
     margin-top: 40px;
   }
-}
-@media screen and (max-width: 425px) {
 }
