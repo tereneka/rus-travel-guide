@@ -1,0 +1,19 @@
+.footer {
+  width: calc(100% - 96px);
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .footer {
+    width: max-content;
+    flex-direction: column;
+    gap: 48px;
+  }
+}

@@ -1,0 +1,27 @@
+.cover {
+  width: calc(100% - 96px);
+  position: relative;
+  cursor: pointer;
+}
+
+.cover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-bottom: 62.5%;
+  background-color: var(--main-back);
+  opacity: 0.3;
+  transition: all 0.3s;
+}
+
+.cover:hover::before {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+  }
+}

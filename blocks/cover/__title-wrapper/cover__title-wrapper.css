@@ -1,0 +1,12 @@
+.cover__title-wrapper {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: calc((100% - 250px) / 2);
+}
+
+@media screen and (max-width: 560px) {
+  .cover__title-wrapper {
+    top: calc((100% - 134px) / 2);
+  }
+}
