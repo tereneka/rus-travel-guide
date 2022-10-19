@@ -3,7 +3,6 @@
   text-decoration: none;
   width: 100%;
   min-height: calc((100vw - 96px) * 0.625);
-  max-height: 840px; /* ограничение по максимальной высоте 840px, т.к. максимальная ширина body=1440px */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,6 +28,12 @@
 
 .cover__link:hover::before {
   opacity: 0.8;
+}
+
+@media screen and (min-width: 1440px) {
+  .cover__link {
+    min-height: 840px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
