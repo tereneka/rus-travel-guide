@@ -27,4 +27,4 @@
 
 - Проверить код на кроссбраузерность и дописать все вендорные префиксы.
 
-[посмотреть проект можно здесь] (https://tereneka.github.io/rus-travel-guide/index.html)
+[посмотреть проект можно здесь](https://tereneka.github.io/rus-travel-guide/index.html)
