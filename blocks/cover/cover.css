@@ -1,40 +1,9 @@
 .cover {
   width: calc(100% - 96px);
-  min-height: calc((100vw - 96px) * 0.625);
-  max-height: 840px; /* ограничение по максимальной высоте 840px, т.к. максимальная ширина body=1440px */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(../../images/cover-trains.jpg);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  cursor: pointer;
-}
-
-.cover::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  min-height: calc((100vw - 96px) * 0.625);
-  background-color: var(--main-back);
-  opacity: 0.3;
-  transition: all 0.4s linear;
-}
-
-.cover:hover::before {
-  opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
     width: 100%;
-    min-height: 62.5vw;
-  }
-
-  .cover::before {
-    min-height: 62.5vw;
   }
 }
