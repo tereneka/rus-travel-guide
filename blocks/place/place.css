@@ -5,17 +5,18 @@
   gap: 48px 40px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1130px) {
   .place {
     column-gap: 32px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .place {
     column-gap: 28px;
   }
 }
-@media screen and (max-width: 425px) {
+
+@media screen and (max-width: 700px) {
   .place {
     display: flex;
     flex-direction: column;

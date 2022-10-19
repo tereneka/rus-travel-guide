@@ -5,7 +5,7 @@
   gap: 12px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 700px) {
   .place__website {
     margin: 0 16px;
   }

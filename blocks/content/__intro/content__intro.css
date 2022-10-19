@@ -3,19 +3,19 @@
   margin: 92px auto 92px 148px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1130px) {
   .content__intro {
     margin-left: 48px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .content__intro {
     margin: 88px auto;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 700px) {
   .content__intro {
     margin: 59px auto 69px;
   }

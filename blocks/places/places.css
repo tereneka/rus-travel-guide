@@ -6,22 +6,20 @@
   gap: 80px;
 }
 
-@media screen and (min-width: 1280px) {
-}
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1130px) {
   .places {
     width: calc(100% - 96px);
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .places {
     width: calc(100% - 48px);
     gap: 73px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 700px) {
   .places {
     width: 100%;
     gap: 50px;

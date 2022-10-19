@@ -1,6 +1,7 @@
 .cover {
   width: calc(100% - 96px);
-  height: calc((100vw - 96px) * 0.625);
+  min-height: calc((100vw - 96px) * 0.625);
+  max-height: 840px; /* ограничение по максимальной высоте 840px, т.к. максимальная ширина body=1440px */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +18,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: calc((100vw - 96px) * 0.625);
+  min-height: calc((100vw - 96px) * 0.625);
   background-color: var(--main-back);
   opacity: 0.3;
   transition: all 0.4s linear;
@@ -30,10 +31,10 @@
 @media screen and (max-width: 1024px) {
   .cover {
     width: 100%;
-    height: 62.5vw;
+    min-height: 62.5vw;
   }
 
   .cover::before {
-    height: 62.5vw;
+    min-height: 62.5vw;
   }
 }

@@ -13,14 +13,14 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .photo-grid {
     width: calc(100% - 48px);
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 700px) {
   .photo-grid {
     width: calc(100% - 32px);
     grid-template-columns: 1fr;
