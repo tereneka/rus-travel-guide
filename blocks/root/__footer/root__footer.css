@@ -1,14 +1,14 @@
-.content__footer {
+.root__footer {
   margin: 92px auto 24px;
 }
 
-@media screen and (max-width: 768px) {
-  .content__footer {
+@media screen and (max-width: 900px) {
+  .root__footer {
     margin-top: 88px;
   }
 }
 @media screen and (max-width: 720px) {
-  .content__footer {
+  .root__footer {
     margin-top: 64px;
     margin-left: 16px;
   }
