@@ -20,7 +20,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  min-height: calc((100vw - 96px) * 0.625);
+  min-height: 100%;
   background-color: var(--main-back);
   opacity: 0.3;
   transition: all 0.4s linear;
@@ -30,19 +30,15 @@
   opacity: 0.8;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .cover__link {
-    min-height: 840px;
+    min-height: 740px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .cover__link {
     width: 100%;
-    min-height: 62.5vw;
-  }
-
-  .cover__link::before {
     min-height: 62.5vw;
   }
 }
